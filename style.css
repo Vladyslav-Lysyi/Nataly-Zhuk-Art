@@ -694,7 +694,12 @@ nav .fa {
 	#contact .container .contact-form {
 		width: 100%
 	}
-
+	
+	#header .nav-links ul {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 0;
+	}
 
 
 /*---------MOBILE VERSION END---------------*/
